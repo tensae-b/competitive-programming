@@ -1,0 +1,17 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    fmax=0
+    sec= 
+   
+    for x in arr:
+        if x>fmax:
+            fmax=x
+        if x>sec and x<fmax:
+            sec=x             
+                
+   
+   
+   
+               
+    print (sec)
