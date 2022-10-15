@@ -1,7 +1,10 @@
-const nums=[8,1,2,2,3];
 
-var c=[0,0,0,0,0];
 function smallerNumbersThanCurrent(nums) {
+    var c=[];
+ for(var x=0; x<nums.length; x++){
+      c[x]=0
+
+   }
    for(let i=0; i<nums.length;i++)
       
        {
@@ -16,7 +19,7 @@ function smallerNumbersThanCurrent(nums) {
            
             
    }
-    console.log(c);
+   return c;
 
     
 };
