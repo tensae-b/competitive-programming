@@ -41,7 +41,7 @@ class Solution(object):
                         return(check)
             else:
                  return(check)
-        if not s:  
+        if not stack:  
             return(check)
         else:
             return False
